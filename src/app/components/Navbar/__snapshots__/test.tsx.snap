@@ -1,0 +1,77 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<Navbar /> should render a bigger header on desktop 1`] = `
+.c0 {
+  background-color: #ffffff;
+  width: 100%;
+  height: 5.6rem;
+  top: 0;
+}
+
+.c1 {
+  height: 2.4rem;
+  width: 7.5rem;
+  margin: 1.6rem;
+}
+
+@media (min-width:768px) {
+  .c0 {
+    height: 8rem;
+  }
+}
+
+@media (min-width:768px) {
+  .c1 {
+    height: 3.2rem;
+    width: 10rem;
+    margin: 2rem auto 2rem 5.2rem;
+  }
+}
+
+<nav
+  class="c0"
+>
+  <img
+    class="c1"
+    src="[object Object]"
+  />
+</nav>
+`
+
+exports[`<Navbar /> should render a bigger image on desktop 1`] = `
+.c0 {
+  background-color: #ffffff;
+  width: 100%;
+  height: 5.6rem;
+  top: 0;
+}
+
+.c1 {
+  height: 2.4rem;
+  width: 7.5rem;
+  margin: 1.6rem;
+}
+
+@media (min-width:768px) {
+  .c0 {
+    height: 8rem;
+  }
+}
+
+@media (min-width:768px) {
+  .c1 {
+    height: 3.2rem;
+    width: 10rem;
+    margin: 2rem auto 2rem 5.2rem;
+  }
+}
+
+<nav
+  class="c0"
+>
+  <img
+    class="c1"
+    src="[object Object]"
+  />
+</nav>
+`
