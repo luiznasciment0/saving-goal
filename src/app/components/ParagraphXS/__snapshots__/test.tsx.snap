@@ -1,0 +1,18 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<ParagraphXS /> should render the ParagraphXS and its styles 1`] = `
+.c0 {
+  font-size: 1.4rem;
+  line-height: 2.1rem;
+  font-family: 'Work Sans';
+  color: #708797;
+  font-weight: 400;
+}
+
+<h3
+  class="c0"
+  color="primaryGray"
+>
+  Teste
+</h3>
+`

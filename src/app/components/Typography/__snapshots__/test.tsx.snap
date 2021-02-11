@@ -1,0 +1,292 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<Typography /> should render the Rubik font-family 1`] = `
+.c0 {
+  font-size: 1.6rem;
+  line-height: 2rem;
+  font-family: 'Rubik';
+  color: #1b31a8;
+  font-weight: 500;
+}
+
+<h1
+  class="c0"
+  color="primaryBlue"
+>
+  Hello
+</h1>
+`
+
+exports[`<Typography /> should render the bold weight 1`] = `
+.c0 {
+  font-size: 1.6rem;
+  line-height: 2rem;
+  font-family: 'Work Sans';
+  color: #1b31a8;
+  font-weight: 600;
+}
+
+<h1
+  class="c0"
+  color="primaryBlue"
+>
+  Hello
+</h1>
+`
+
+exports[`<Typography /> should render the large size 1`] = `
+.c0 {
+  font-size: 1.8rem;
+  line-height: 2.16rem;
+  font-family: 'Work Sans';
+  color: #1b31a8;
+  font-weight: 500;
+}
+
+<h1
+  class="c0"
+  color="primaryBlue"
+>
+  Teste 5
+</h1>
+`
+
+exports[`<Typography /> should render the light weight 1`] = `
+.c0 {
+  font-size: 1.6rem;
+  line-height: 2rem;
+  font-family: 'Work Sans';
+  color: #1b31a8;
+  font-weight: 400;
+}
+
+<h1
+  class="c0"
+  color="primaryBlue"
+>
+  Hello
+</h1>
+`
+
+exports[`<Typography /> should render the medium size 1`] = `
+.c0 {
+  font-size: 1.6rem;
+  line-height: 2rem;
+  font-family: 'Work Sans';
+  color: #1b31a8;
+  font-weight: 500;
+}
+
+<h1
+  class="c0"
+  color="primaryBlue"
+>
+  Teste 4
+</h1>
+`
+
+exports[
+  `<Typography /> should render the medium size, normal weight, primaryBlue color and primary family by default 1`
+] = `
+.c0 {
+  font-size: 1.6rem;
+  line-height: 2rem;
+  font-family: 'Work Sans';
+  color: #1b31a8;
+  font-weight: 500;
+}
+
+<h1
+  class="c0"
+  color="primaryBlue"
+>
+  Teste
+</h1>
+`
+
+exports[`<Typography /> should render the normal weight 1`] = `
+.c0 {
+  font-size: 1.6rem;
+  line-height: 2rem;
+  font-family: 'Work Sans';
+  color: #1b31a8;
+  font-weight: 500;
+}
+
+<h1
+  class="c0"
+  color="primaryBlue"
+>
+  Hello
+</h1>
+`
+
+exports[`<Typography /> should render the primaryBlack color 1`] = `
+.c0 {
+  font-size: 1.6rem;
+  line-height: 2rem;
+  font-family: 'Work Sans';
+  color: #1e2a32;
+  font-weight: 500;
+}
+
+<h1
+  class="c0"
+  color="primaryBlack"
+>
+  Hello
+</h1>
+`
+
+exports[`<Typography /> should render the primaryBlue color 1`] = `
+.c0 {
+  font-size: 1.6rem;
+  line-height: 2rem;
+  font-family: 'Work Sans';
+  color: #1b31a8;
+  font-weight: 500;
+}
+
+<h1
+  class="c0"
+  color="primaryBlue"
+>
+  Hello
+</h1>
+`
+
+exports[`<Typography /> should render the primaryGray color 1`] = `
+.c0 {
+  font-size: 1.6rem;
+  line-height: 2rem;
+  font-family: 'Work Sans';
+  color: #708797;
+  font-weight: 500;
+}
+
+<h1
+  class="c0"
+  color="primaryGray"
+>
+  Hello
+</h1>
+`
+
+exports[`<Typography /> should render the secondaryBlack color 1`] = `
+.c0 {
+  font-size: 1.6rem;
+  line-height: 2rem;
+  font-family: 'Work Sans';
+  color: #1c1e1f;
+  font-weight: 500;
+}
+
+<h1
+  class="c0"
+  color="secondaryBlack"
+>
+  Hello
+</h1>
+`
+
+exports[`<Typography /> should render the secondaryBlue color 1`] = `
+.c0 {
+  font-size: 1.6rem;
+  line-height: 2rem;
+  font-family: 'Work Sans';
+  color: #0079ff;
+  font-weight: 500;
+}
+
+<h1
+  class="c0"
+  color="secondaryBlue"
+>
+  Hello
+</h1>
+`
+
+exports[`<Typography /> should render the secondaryGray color 1`] = `
+.c0 {
+  font-size: 1.6rem;
+  line-height: 2rem;
+  font-family: 'Work Sans';
+  color: #4d6475;
+  font-weight: 500;
+}
+
+<h1
+  class="c0"
+  color="secondaryGray"
+>
+  Hello
+</h1>
+`
+
+exports[`<Typography /> should render the small size 1`] = `
+.c0 {
+  font-size: 1.4rem;
+  line-height: 2.1rem;
+  font-family: 'Work Sans';
+  color: #1b31a8;
+  font-weight: 500;
+}
+
+<h1
+  class="c0"
+  color="primaryBlue"
+>
+  Teste 3
+</h1>
+`
+
+exports[`<Typography /> should render the xlarge size 1`] = `
+.c0 {
+  font-size: 2rem;
+  line-height: 2.4rem;
+  font-family: 'Work Sans';
+  color: #1b31a8;
+  font-weight: 500;
+}
+
+<h1
+  class="c0"
+  color="primaryBlue"
+>
+  Teste 6
+</h1>
+`
+
+exports[`<Typography /> should render the xsmall size 1`] = `
+.c0 {
+  font-size: 1.2rem;
+  line-height: 1.6rem;
+  font-family: 'Work Sans';
+  color: #1b31a8;
+  font-weight: 500;
+}
+
+<h1
+  class="c0"
+  color="primaryBlue"
+>
+  Teste 2
+</h1>
+`
+
+exports[`<Typography /> should render the xxlarge size 1`] = `
+.c0 {
+  font-size: 2.4rem;
+  line-height: 2.88rem;
+  font-family: 'Work Sans';
+  color: #1b31a8;
+  font-weight: 500;
+}
+
+<h1
+  class="c0"
+  color="primaryBlue"
+>
+  Teste 7
+</h1>
+`

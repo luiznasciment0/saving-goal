@@ -1,0 +1,18 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<Caption /> should render the Caption and its styles 1`] = `
+.c0 {
+  font-size: 1.2rem;
+  line-height: 1.6rem;
+  font-family: 'Work Sans';
+  color: #1c1e1f;
+  font-weight: 400;
+}
+
+<p
+  class="c0"
+  color="secondaryBlack"
+>
+  Teste
+</p>
+`

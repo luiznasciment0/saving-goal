@@ -1,0 +1,20 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[
+  `<HeadingSmallXS /> should render the HeadingSmallXS and its styles 1`
+] = `
+.c0 {
+  font-size: 2rem;
+  line-height: 2.4rem;
+  font-family: 'Rubik';
+  color: #1e2a32;
+  font-weight: 500;
+}
+
+<h2
+  class="c0"
+  color="primaryBlack"
+>
+  Teste
+</h2>
+`
