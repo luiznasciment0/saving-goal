@@ -1,0 +1,9 @@
+{
+  "name": "Origin Financial - Take Home Assignment",
+  "short_name": "Origin Financial",
+  "background_color": "#FFFFFF",
+  "description": "Frontend challenge",
+  "display": "fullscreen",
+  "start_url": "/",
+  "theme_color": "#FFFFFF"
+}
