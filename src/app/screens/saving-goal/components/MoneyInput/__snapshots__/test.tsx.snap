@@ -1,0 +1,69 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<MoneyInput /> should allow only numbers 1`] = `
+.c0 {
+  font-size: 1.2rem;
+  line-height: 1.6rem;
+  font-family: 'Work Sans';
+  color: #1e2a32;
+  font-weight: 400;
+}
+
+<h4
+  class="c0"
+  color="primaryBlack"
+>
+  Total amount
+</h4>
+`
+
+exports[`<MoneyInput /> should format 1k 1`] = `
+.c0 {
+  font-size: 1.2rem;
+  line-height: 1.6rem;
+  font-family: 'Work Sans';
+  color: #1e2a32;
+  font-weight: 400;
+}
+
+<h4
+  class="c0"
+  color="primaryBlack"
+>
+  Total amount
+</h4>
+`
+
+exports[`<MoneyInput /> should format 10k 1`] = `
+.c0 {
+  font-size: 1.2rem;
+  line-height: 1.6rem;
+  font-family: 'Work Sans';
+  color: #1e2a32;
+  font-weight: 400;
+}
+
+<h4
+  class="c0"
+  color="primaryBlack"
+>
+  Total amount
+</h4>
+`
+
+exports[`<MoneyInput /> should format 100k 1`] = `
+.c0 {
+  font-size: 1.2rem;
+  line-height: 1.6rem;
+  font-family: 'Work Sans';
+  color: #1e2a32;
+  font-weight: 400;
+}
+
+<h4
+  class="c0"
+  color="primaryBlack"
+>
+  Total amount
+</h4>
+`
