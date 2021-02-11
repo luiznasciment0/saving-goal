@@ -9,8 +9,10 @@
 - [Husky](https://github.com/typicode/husky)
 
 ```bash
+npm install
 npm run dev
 # or
+yarn
 yarn dev
 ```
 
