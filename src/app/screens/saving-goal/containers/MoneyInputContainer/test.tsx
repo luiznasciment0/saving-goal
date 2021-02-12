@@ -6,7 +6,7 @@ import MoneyInputContainer from '.'
 
 const setup = () => {
   const utils = render(
-    <SavingGoalProvider>
+    <SavingGoalProvider initialDate={new Date()}>
       <MoneyInputContainer />
     </SavingGoalProvider>
   )
