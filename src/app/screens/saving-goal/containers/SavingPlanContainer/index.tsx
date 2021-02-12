@@ -9,9 +9,9 @@ import {
   useEffectsSavingGoal
 } from 'app/providers/SavingGoalProvider'
 
-const initialDate = new Date(new Date().getFullYear(), new Date().getMonth())
+import { MinDate } from 'app/models/SavingGoal'
 
-const SavingPlanContainer = () => {
+const SavingPlanContainer = ({ initialDate }: MinDate) => {
   const [dateDifference, setDateDifference] = useState(0)
   const { totalAmount, reachDate, monthlyAmount } = useStateSavingGoal()
   const { calcMonthlyAmount } = useEffectsSavingGoal()

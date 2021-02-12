@@ -1,8 +1,9 @@
 /* eslint-disable @typescript-eslint/no-explicit-any */
 import constate from 'constate'
 import { useReducer } from 'react'
-
 import differenceInMonths from 'date-fns/differenceInMonths'
+
+import { MinDate } from 'app/models/SavingGoal'
 
 const reducer = (state: any, action: any) => {
   switch (action.type) {
@@ -18,11 +19,6 @@ const reducer = (state: any, action: any) => {
   }
 }
 
-const initialYear = new Date().getFullYear()
-const initialMonth = new Date().getMonth() + 1
-
-const initialDate = new Date(initialYear, initialMonth)
-
 const currencyMask = (money: number) => {
   return new Intl.NumberFormat('en-US', {
     style: 'currency',
@@ -30,7 +26,7 @@ const currencyMask = (money: number) => {
   }).format(money)
 }
 
-const useSavingGoal = () => {
+const useSavingGoal = ({ initialDate }: MinDate) => {
   const [state, dispatch] = useReducer(reducer, {
     reachDate: initialDate,
     totalAmount: '',

@@ -4,14 +4,11 @@ import addMonths from 'date-fns/addMonths'
 import subMonths from 'date-fns/subMonths'
 import useKeyPress from 'app/hooks/useKeyPress'
 import { useEffectsSavingGoal } from 'app/providers/SavingGoalProvider'
+import { MinDate } from 'app/models/SavingGoal'
 
 import DatePicker from '../../components/DatePicker'
 
-const initialYear = new Date().getFullYear()
-const initialMonth = new Date().getMonth() + 1
-const initialDate = new Date(initialYear, initialMonth)
-
-const DatePickerContainer = () => {
+const DatePickerContainer = ({ initialDate }: MinDate) => {
   const { setDateToReachGoal } = useEffectsSavingGoal()
 
   const [date, setDate] = useState(initialDate)
