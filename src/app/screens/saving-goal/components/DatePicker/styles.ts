@@ -7,6 +7,7 @@ export const Wrapper = styled.div`
   margin-top: 4px;
   display: flex;
   justify-content: space-between;
+  min-width: 19.2rem;
 `
 
 export const DateValueContainer = styled.div`
