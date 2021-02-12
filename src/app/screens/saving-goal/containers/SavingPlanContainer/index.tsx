@@ -2,7 +2,6 @@ import SavingPlan from '../../components/SavingPlan'
 
 import { useEffect, useState } from 'react'
 import differenceInMonths from 'date-fns/differenceInMonths'
-import addMonths from 'date-fns/addMonths'
 
 import {
   useStateSavingGoal,
@@ -23,20 +22,8 @@ const SavingPlanContainer = ({ initialDate }: MinDate) => {
   const year = reachDate.getFullYear()
 
   useEffect(() => {
-    if (totalAmount == 0) {
-      setDateDifference(0)
-    } else if (
-      month ===
-      addMonths(initialDate, 1).toLocaleString('en-US', {
-        month: 'long'
-      })
-    ) {
-      setDateDifference(1)
-    } else {
-      setDateDifference(differenceInMonths(reachDate, initialDate))
-    }
-    calcMonthlyAmount()
-    // eslint-disable-next-line react-hooks/exhaustive-deps
+    setDateDifference(differenceInMonths(reachDate, initialDate) + 1)
+    calcMonthlyAmount(differenceInMonths(reachDate, initialDate) + 1)
   }, [totalAmount, reachDate])
 
   return (
