@@ -1,11 +1,17 @@
-/* eslint-disable @typescript-eslint/no-explicit-any */
 import constate from 'constate'
 import { useReducer } from 'react'
-import differenceInMonths from 'date-fns/differenceInMonths'
 
-import { MinDate } from 'app/models/SavingGoal'
+import { MinDate, SavingGoalState, Actions } from 'app/models/SavingGoal'
 
-const reducer = (state: any, action: any) => {
+const currencyMask = (money: number) => {
+  return new Intl.NumberFormat('en-US', {
+    style: 'currency',
+    currency: 'USD',
+    minimumFractionDigits: 2
+  }).format(money)
+}
+
+const reducer = (state: SavingGoalState, action: Actions) => {
   switch (action.type) {
     case 'SET_TOTAL_AMOUNT':
       return { ...state, totalAmount: action.money }
@@ -17,13 +23,6 @@ const reducer = (state: any, action: any) => {
         monthlyAmount: action.amount
       }
   }
-}
-
-const currencyMask = (money: number) => {
-  return new Intl.NumberFormat('en-US', {
-    style: 'currency',
-    currency: 'USD'
-  }).format(money)
 }
 
 const useSavingGoal = ({ initialDate }: MinDate) => {
@@ -41,27 +40,22 @@ const useSavingGoal = ({ initialDate }: MinDate) => {
     dispatch({ type: 'SET_DATE', date })
   }
 
-  const calcMonthlyAmount = () => {
-    const { reachDate, totalAmount } = state
-    const dateDifference = differenceInMonths(reachDate, initialDate)
+  const calcMonthlyAmount = (dateDiff: number) => {
+    const { totalAmount } = state
 
-    const initialAmount = totalAmount == 0 ? currencyMask(0) : `$${totalAmount}`
+    const initialAmount = totalAmount === '0' ? '$0,00' : `${totalAmount}`
 
-    if (dateDifference === 0) {
+    if (dateDiff === 0) {
       dispatch({ type: 'SET_MONTHLY_AMOUNT', amount: initialAmount })
       return
     }
 
     const numberTotalAmount = Number(totalAmount.replace(/[,]+/g, ''))
 
-    let amount = ''
-    if (numberTotalAmount === 0) {
-      amount = '$0.00'
-    } else {
-      amount = currencyMask(numberTotalAmount / dateDifference)
-    }
-
-    dispatch({ type: 'SET_MONTHLY_AMOUNT', amount })
+    dispatch({
+      type: 'SET_MONTHLY_AMOUNT',
+      amount: currencyMask(numberTotalAmount / dateDiff)
+    })
   }
 
   return {
