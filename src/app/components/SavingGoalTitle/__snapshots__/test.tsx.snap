@@ -1,0 +1,55 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<Typography /> should render the SavingGoalTitle and its value 1`] = `
+.c2 {
+  font-size: 2rem;
+  line-height: 2.4rem;
+  font-family: 'Rubik';
+  color: #1e2a32;
+  font-weight: 500;
+}
+
+.c3 {
+  font-size: 1.4rem;
+  line-height: 2.1rem;
+  font-family: 'Work Sans';
+  color: #708797;
+  font-weight: 400;
+}
+
+.c0 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  place-items: center;
+}
+
+.c1 {
+  margin-right: 1.6rem;
+}
+
+<div
+  class="c0"
+>
+  <img
+    alt="House Icon"
+    class="c1"
+    src="[object Object]"
+  />
+  <div>
+    <h2
+      class="c2"
+      color="primaryBlack"
+    >
+      Teste
+    </h2>
+    <h3
+      class="c3"
+      color="primaryGray"
+    >
+      Saving goal
+    </h3>
+  </div>
+</div>
+`
