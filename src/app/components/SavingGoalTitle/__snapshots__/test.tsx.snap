@@ -25,6 +25,7 @@ exports[
   display: -ms-flexbox;
   display: flex;
   place-items: center;
+  margin-bottom: 1.5rem;
 }
 
 .c1 {
