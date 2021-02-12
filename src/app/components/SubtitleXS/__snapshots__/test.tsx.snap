@@ -1,6 +1,6 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
-exports[`<Typography /> should render the SubtitleXS and its styles 1`] = `
+exports[`<SubtitleXS /> should render the SubtitleXS and its styles 1`] = `
 .c0 {
   font-size: 1.8rem;
   line-height: 2.16rem;

@@ -2,7 +2,7 @@ import { render, screen } from '@testing-library/react'
 
 import SavingGoalTitle from '.'
 
-describe('<Typography />', () => {
+describe('<SavingGoalTitle />', () => {
   it('should render the SavingGoalTitle and its value', () => {
     const { container } = render(<SavingGoalTitle title="Teste" />)
 

@@ -1,6 +1,8 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
-exports[`<Typography /> should render the SavingGoalTitle and its value 1`] = `
+exports[
+  `<SavingGoalTitle /> should render the SavingGoalTitle and its value 1`
+] = `
 .c2 {
   font-size: 2rem;
   line-height: 2.4rem;

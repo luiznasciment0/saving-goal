@@ -1,6 +1,6 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
-exports[`<Caption /> should render the Button and its label 1`] = `
+exports[`<Button /> should render the Button and its label 1`] = `
 .c0 {
   font-size: 1.6rem;
   font-weight: 600;

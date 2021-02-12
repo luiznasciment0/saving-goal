@@ -2,7 +2,7 @@ import { render, screen } from '@testing-library/react'
 
 import Button from '.'
 
-describe('<Caption />', () => {
+describe('<Button />', () => {
   it('should render the Button and its label', () => {
     const { container } = render(<Button>Teste</Button>)
 

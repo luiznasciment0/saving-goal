@@ -2,7 +2,7 @@ import { render, screen } from '@testing-library/react'
 
 import SubtitleXS from '.'
 
-describe('<Typography />', () => {
+describe('<SubtitleXS />', () => {
   it('should render the SubtitleXS and its styles', () => {
     const { container } = render(<SubtitleXS>Teste</SubtitleXS>)
 
