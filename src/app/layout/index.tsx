@@ -1,8 +1,8 @@
 import { ReactNode } from 'react'
 
 import Navbar from 'app/components/Navbar'
-import Title from 'app/screens/saving-goal/components/Title'
-import SavingGoalTitle from 'app/screens/saving-goal/components/SavingGoalTitle'
+import Title from 'app/components/Title'
+import SavingGoalTitle from 'app/components/SavingGoalTitle'
 
 import { Content } from './styles'
 
