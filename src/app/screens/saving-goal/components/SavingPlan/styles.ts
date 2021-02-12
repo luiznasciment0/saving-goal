@@ -10,6 +10,10 @@ export const Wrapper = styled.div`
   border-radius: 4px;
   margin-top: 2.4rem;
   margin-bottom: 3.2rem;
+
+  ${customMedia.greaterThan('medium')`
+    width: 50.9rem;
+  `}
 `
 
 export const TitleContainer = styled.div`
