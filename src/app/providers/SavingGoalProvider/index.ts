@@ -18,7 +18,10 @@ const reducer = (state: any, action: any) => {
   }
 }
 
-const initialDate = new Date(new Date().getFullYear(), new Date().getMonth())
+const initialYear = new Date().getFullYear()
+const initialMonth = new Date().getMonth() + 1
+
+const initialDate = new Date(initialYear, initialMonth)
 
 const currencyMask = (money: number) => {
   return new Intl.NumberFormat('en-US', {
