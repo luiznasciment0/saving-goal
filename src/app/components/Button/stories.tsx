@@ -5,14 +5,14 @@ export default {
   title: 'Button',
   component: Button,
   argTypes: {
-    label: {
+    children: {
       type: 'string'
     }
   }
 } as Meta
 
-export const Default: Story = (args) => <Button label={args.label} />
+export const Default: Story = (args) => <Button>{args.children}</Button>
 
 Default.args = {
-  label: 'Confirm'
+  children: 'Confirm'
 }

@@ -1,9 +1,9 @@
 import { StyledButton } from './styles'
 
 interface Props {
-  label: string
+  children: React.ReactNode
 }
 
-const Button = ({ label }: Props) => <StyledButton>{label}</StyledButton>
+const Button = ({ children }: Props) => <StyledButton>{children}</StyledButton>
 
 export default Button

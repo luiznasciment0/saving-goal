@@ -46,7 +46,7 @@ const SavingPlan = ({
         </SubtitleContainer>
       </Wrapper>
       <ButtonWrapper>
-        <Button label="Confirm" />
+        <Button>Confirm</Button>
       </ButtonWrapper>
     </>
   )
