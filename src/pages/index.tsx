@@ -1,3 +1,3 @@
-export default function Home() {
-  return <h1>Origin</h1>
-}
+import SavingGoal from 'app/screens/saving-goal/pages'
+
+export default SavingGoal
