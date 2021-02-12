@@ -1,13 +1,13 @@
 import { render, screen, fireEvent } from '@testing-library/react'
 import 'jest-styled-components'
 
-import { SavingGoalProvider } from 'app/providers/SavingGoal'
-import MoneyInput from '.'
+import { SavingGoalProvider } from 'app/providers/SavingGoalProvider'
+import MoneyInputContainer from '.'
 
 const setup = () => {
   const utils = render(
     <SavingGoalProvider>
-      <MoneyInput />
+      <MoneyInputContainer />
     </SavingGoalProvider>
   )
   const input = utils.getByLabelText('money-input')

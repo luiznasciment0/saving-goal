@@ -1,5 +1,5 @@
 import { Story, Meta } from '@storybook/react/types-6-0'
-import { SavingGoalProvider } from 'app/providers/SavingGoal'
+import { SavingGoalProvider } from 'app/providers/SavingGoalProvider'
 import MoneyInput from '.'
 
 export default {
@@ -9,6 +9,6 @@ export default {
 
 export const Default: Story = () => (
   <SavingGoalProvider>
-    <MoneyInput />
+    <MoneyInput value="0" handleChange={() => console.log('Teste')} />
   </SavingGoalProvider>
 )
