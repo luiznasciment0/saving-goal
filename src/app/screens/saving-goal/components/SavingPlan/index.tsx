@@ -28,7 +28,9 @@ const SavingPlan = ({
     <>
       <Wrapper>
         <TitleContainer>
-          <SubtitleXS color="primaryBlack">Monthly amount</SubtitleXS>
+          <SubtitleXS color="primaryBlack" tag="h6">
+            Monthly amount
+          </SubtitleXS>
           <HeadingMediumXS>{monthlyAmount}</HeadingMediumXS>
         </TitleContainer>
         <SubtitleContainer>

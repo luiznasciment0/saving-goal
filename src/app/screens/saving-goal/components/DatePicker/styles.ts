@@ -3,7 +3,7 @@ import styled from 'styled-components'
 export const Wrapper = styled.div`
   border: 1px solid #e9eef2;
   border-radius: 4px;
-  padding: 1.6rem;
+  padding: 0.75rem 2.1rem 0.65rem;
   margin-top: 4px;
   display: flex;
   justify-content: space-between;

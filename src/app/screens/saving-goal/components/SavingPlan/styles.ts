@@ -9,13 +9,13 @@ export const Wrapper = styled.div`
 
 export const TitleContainer = styled.div`
   display: flex;
-  padding: 1.6rem;
+  padding: 2.7rem 2.4rem;
   justify-content: space-between;
 `
 
 export const SubtitleContainer = styled.div`
   background-color: #f4f8fa;
-  padding: 1.6rem;
+  padding: 2.4rem 3.2rem;
   display: grid;
   place-items: center;
   text-align: center;
