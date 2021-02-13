@@ -1,5 +1,5 @@
 import constate from 'constate'
-import { useReducer } from 'react'
+import { useReducer, useCallback } from 'react'
 
 import { MinDate, SavingGoalState, Actions } from 'app/models/SavingGoal'
 
@@ -40,23 +40,24 @@ const useSavingGoal = ({ initialDate }: MinDate) => {
     dispatch({ type: 'SET_DATE', date })
   }
 
-  const calcMonthlyAmount = (dateDiff: number) => {
-    const { totalAmount } = state
+  const calcMonthlyAmount = useCallback(
+    (dateDiff: number, totalAmount: string) => {
+      const initialAmount = totalAmount === '0' ? '$0,00' : `${totalAmount}`
 
-    const initialAmount = totalAmount === '0' ? '$0,00' : `${totalAmount}`
+      if (dateDiff === 0) {
+        dispatch({ type: 'SET_MONTHLY_AMOUNT', amount: initialAmount })
+        return
+      }
 
-    if (dateDiff === 0) {
-      dispatch({ type: 'SET_MONTHLY_AMOUNT', amount: initialAmount })
-      return
-    }
+      const numberTotalAmount = Number(totalAmount.replace(/[,]+/g, ''))
 
-    const numberTotalAmount = Number(totalAmount.replace(/[,]+/g, ''))
-
-    dispatch({
-      type: 'SET_MONTHLY_AMOUNT',
-      amount: currencyMask(numberTotalAmount / dateDiff)
-    })
-  }
+      dispatch({
+        type: 'SET_MONTHLY_AMOUNT',
+        amount: currencyMask(numberTotalAmount / dateDiff)
+      })
+    },
+    []
+  )
 
   return {
     state,

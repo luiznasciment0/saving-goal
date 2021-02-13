@@ -23,8 +23,11 @@ const SavingPlanContainer = ({ initialDate }: MinDate) => {
 
   useEffect(() => {
     setDateDifference(differenceInMonths(reachDate, initialDate) + 1)
-    calcMonthlyAmount(differenceInMonths(reachDate, initialDate) + 1)
-  }, [totalAmount, reachDate])
+    calcMonthlyAmount(
+      differenceInMonths(reachDate, initialDate) + 1,
+      totalAmount
+    )
+  }, [totalAmount, reachDate, calcMonthlyAmount, initialDate])
 
   return (
     <SavingPlan
