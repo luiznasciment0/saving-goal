@@ -1,4 +1,9 @@
 import styled from 'styled-components'
+import { generateMedia } from 'styled-media-query'
+
+const customMedia = generateMedia({
+  small: '350px'
+})
 
 export const StyledButton = styled.button`
   font-size: 1.6rem;
@@ -11,4 +16,8 @@ export const StyledButton = styled.button`
   width: 32rem;
   border-radius: 3.2rem;
   border: 0;
+
+  ${customMedia.lessThan('small')`
+    width: 26rem;
+  `}
 `
