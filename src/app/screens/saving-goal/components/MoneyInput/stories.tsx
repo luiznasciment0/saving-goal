@@ -7,8 +7,10 @@ export default {
   component: MoneyInput
 } as Meta
 
+const initialDate = new Date()
+
 export const Default: Story = () => (
-  <SavingGoalProvider>
-    <MoneyInput value="0" handleChange={() => console.log('Teste')} />
+  <SavingGoalProvider initialDate={initialDate}>
+    <MoneyInput value="$5000" handleChange={() => console.log('Test')} />
   </SavingGoalProvider>
 )

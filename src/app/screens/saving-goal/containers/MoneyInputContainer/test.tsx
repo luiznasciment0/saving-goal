@@ -23,7 +23,7 @@ describe('<MoneyInput />', () => {
     const input = screen.getByLabelText('money-input')
 
     expect(input).toHaveValue('')
-    fireEvent.change(input, { target: { value: 'Teste' } })
+    fireEvent.change(input, { target: { value: 'Test' } })
     expect(input).toHaveValue('')
 
     expect(container.firstChild).toMatchSnapshot()

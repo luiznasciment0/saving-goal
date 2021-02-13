@@ -4,9 +4,9 @@ import Typography from '.'
 
 describe('<Typography />', () => {
   it('should render the medium size, normal weight, primaryBlue color and primary family by default', () => {
-    const { container } = render(<Typography>Teste</Typography>)
+    const { container } = render(<Typography>Test</Typography>)
 
-    expect(screen.getByRole('heading', { name: /teste/i })).toHaveStyle({
+    expect(screen.getByRole('heading', { name: /test/i })).toHaveStyle({
       'font-size': '1.6rem',
       'line-height': '2rem',
       'font-weight': '500',
@@ -18,9 +18,9 @@ describe('<Typography />', () => {
   })
 
   it(`should render the xsmall size`, () => {
-    const { container } = render(<Typography size="xsmall">Teste 2</Typography>)
+    const { container } = render(<Typography size="xsmall">Test 2</Typography>)
 
-    expect(screen.getByRole('heading', { name: /teste 2/i })).toHaveStyle({
+    expect(screen.getByRole('heading', { name: /test 2/i })).toHaveStyle({
       'font-size': '1.2rem',
       'line-height': '1.6rem'
     })
@@ -29,9 +29,9 @@ describe('<Typography />', () => {
   })
 
   it(`should render the small size`, () => {
-    const { container } = render(<Typography size="small">Teste 3</Typography>)
+    const { container } = render(<Typography size="small">Test 3</Typography>)
 
-    expect(screen.getByRole('heading', { name: /teste 3/i })).toHaveStyle({
+    expect(screen.getByRole('heading', { name: /test 3/i })).toHaveStyle({
       'font-size': '1.4rem',
       'line-height': '2.1rem'
     })
@@ -40,9 +40,9 @@ describe('<Typography />', () => {
   })
 
   it(`should render the medium size`, () => {
-    const { container } = render(<Typography size="medium">Teste 4</Typography>)
+    const { container } = render(<Typography size="medium">Test 4</Typography>)
 
-    expect(screen.getByRole('heading', { name: /teste 4/i })).toHaveStyle({
+    expect(screen.getByRole('heading', { name: /test 4/i })).toHaveStyle({
       'font-size': '1.6rem',
       'line-height': '2rem'
     })
@@ -51,9 +51,9 @@ describe('<Typography />', () => {
   })
 
   it(`should render the large size`, () => {
-    const { container } = render(<Typography size="large">Teste 5</Typography>)
+    const { container } = render(<Typography size="large">Test 5</Typography>)
 
-    expect(screen.getByRole('heading', { name: /teste 5/i })).toHaveStyle({
+    expect(screen.getByRole('heading', { name: /test 5/i })).toHaveStyle({
       'font-size': '1.8rem',
       'line-height': '2.16rem'
     })
@@ -62,9 +62,9 @@ describe('<Typography />', () => {
   })
 
   it(`should render the xlarge size`, () => {
-    const { container } = render(<Typography size="xlarge">Teste 6</Typography>)
+    const { container } = render(<Typography size="xlarge">Test 6</Typography>)
 
-    expect(screen.getByRole('heading', { name: /teste 6/i })).toHaveStyle({
+    expect(screen.getByRole('heading', { name: /test 6/i })).toHaveStyle({
       'font-size': '2rem',
       'line-height': '2.4rem'
     })
@@ -73,11 +73,9 @@ describe('<Typography />', () => {
   })
 
   it(`should render the xxlarge size`, () => {
-    const { container } = render(
-      <Typography size="xxlarge">Teste 7</Typography>
-    )
+    const { container } = render(<Typography size="xxlarge">Test 7</Typography>)
 
-    expect(screen.getByRole('heading', { name: /teste 7/i })).toHaveStyle({
+    expect(screen.getByRole('heading', { name: /test 7/i })).toHaveStyle({
       'font-size': '2.4rem',
       'line-height': '2.88rem'
     })

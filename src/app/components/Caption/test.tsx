@@ -4,9 +4,9 @@ import Caption from '.'
 
 describe('<Caption />', () => {
   it('should render the Caption and its styles', () => {
-    const { container } = render(<Caption>Teste</Caption>)
+    const { container } = render(<Caption>Test</Caption>)
 
-    expect(screen.getByText(/teste/i)).toHaveStyle({
+    expect(screen.getByText(/test/i)).toHaveStyle({
       'font-size': '1.2rem',
       'line-height': '1.6rem',
       'font-weight': '400',

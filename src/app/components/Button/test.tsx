@@ -4,9 +4,9 @@ import Button from '.'
 
 describe('<Button />', () => {
   it('should render the Button and its label', () => {
-    const { container } = render(<Button>Teste</Button>)
+    const { container } = render(<Button>Test</Button>)
 
-    expect(screen.getByRole('button', { name: /Teste/i })).toHaveStyle({
+    expect(screen.getByRole('button', { name: /Test/i })).toHaveStyle({
       'font-size': '1.6rem',
       'font-weight': '600',
       color: '#ffffff',

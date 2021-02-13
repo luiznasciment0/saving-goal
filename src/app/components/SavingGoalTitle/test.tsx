@@ -4,7 +4,7 @@ import SavingGoalTitle from '.'
 
 describe('<SavingGoalTitle />', () => {
   it('should render the SavingGoalTitle and its value', () => {
-    const { container } = render(<SavingGoalTitle title="Teste" />)
+    const { container } = render(<SavingGoalTitle title="Test" />)
 
     expect(screen.getByRole('img')).toBeInTheDocument()
 

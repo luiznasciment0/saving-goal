@@ -14,5 +14,5 @@ export default {
 export const Default: Story = (args) => <Caption>{args.children}</Caption>
 
 Default.args = {
-  children: 'Teste'
+  children: 'Test'
 }

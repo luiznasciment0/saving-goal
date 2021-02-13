@@ -4,9 +4,9 @@ import ParagraphXS from '.'
 
 describe('<ParagraphXS />', () => {
   it('should render the ParagraphXS and its styles', () => {
-    const { container } = render(<ParagraphXS>Teste</ParagraphXS>)
+    const { container } = render(<ParagraphXS>Test</ParagraphXS>)
 
-    expect(screen.getByRole('heading', { name: /teste/i })).toHaveStyle({
+    expect(screen.getByRole('heading', { name: /test/i })).toHaveStyle({
       'font-size': '1.4rem',
       'line-height': '2.1rem',
       'font-weight': '400',

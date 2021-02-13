@@ -13,6 +13,6 @@ exports[`<SubtitleXS /> should render the SubtitleXS and its styles 1`] = `
   class="c0"
   color="primaryBlue"
 >
-  Teste
+  Test
 </h1>
 `

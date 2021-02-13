@@ -47,7 +47,7 @@ exports[`<Typography /> should render the large size 1`] = `
   class="c0"
   color="primaryBlue"
 >
-  Teste 5
+  Test 5
 </h1>
 `
 
@@ -81,7 +81,7 @@ exports[`<Typography /> should render the medium size 1`] = `
   class="c0"
   color="primaryBlue"
 >
-  Teste 4
+  Test 4
 </h1>
 `
 
@@ -100,7 +100,7 @@ exports[
   class="c0"
   color="primaryBlue"
 >
-  Teste
+  Test
 </h1>
 `
 
@@ -236,7 +236,7 @@ exports[`<Typography /> should render the small size 1`] = `
   class="c0"
   color="primaryBlue"
 >
-  Teste 3
+  Test 3
 </h1>
 `
 
@@ -253,7 +253,7 @@ exports[`<Typography /> should render the xlarge size 1`] = `
   class="c0"
   color="primaryBlue"
 >
-  Teste 6
+  Test 6
 </h1>
 `
 
@@ -270,7 +270,7 @@ exports[`<Typography /> should render the xsmall size 1`] = `
   class="c0"
   color="primaryBlue"
 >
-  Teste 2
+  Test 2
 </h1>
 `
 
@@ -287,6 +287,6 @@ exports[`<Typography /> should render the xxlarge size 1`] = `
   class="c0"
   color="primaryBlue"
 >
-  Teste 7
+  Test 7
 </h1>
 `

@@ -13,6 +13,6 @@ exports[`<Caption /> should render the Caption and its styles 1`] = `
   class="c0"
   color="secondaryBlack"
 >
-  Teste
+  Test
 </p>
 `

@@ -4,9 +4,9 @@ import SubtitleXS from '.'
 
 describe('<SubtitleXS />', () => {
   it('should render the SubtitleXS and its styles', () => {
-    const { container } = render(<SubtitleXS>Teste</SubtitleXS>)
+    const { container } = render(<SubtitleXS>Test</SubtitleXS>)
 
-    expect(screen.getByRole('heading', { name: /teste/i })).toHaveStyle({
+    expect(screen.getByRole('heading', { name: /test/i })).toHaveStyle({
       'font-size': '1.8rem',
       'line-height': '2.16rem',
       'font-weight': '400',

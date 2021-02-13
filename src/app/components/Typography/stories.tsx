@@ -26,8 +26,8 @@ export default {
   }
 } as Meta
 
-export const Default: Story = (args) => <Typography {...args}>Teste</Typography>
+export const Default: Story = (args) => <Typography {...args}>Test</Typography>
 
 Default.args = {
-  children: 'Teste'
+  children: 'Test'
 }

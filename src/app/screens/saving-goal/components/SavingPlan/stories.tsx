@@ -7,10 +7,12 @@ export default {
   component: SavingPlan
 } as Meta
 
+const initialDate = new Date()
+
 export const Default: Story = () => (
-  <SavingGoalProvider>
+  <SavingGoalProvider initialDate={initialDate}>
     <SavingPlan
-      monthlyAmount="5000"
+      monthlyAmount="$5000"
       totalAmount="5000"
       year={2021}
       month="April"

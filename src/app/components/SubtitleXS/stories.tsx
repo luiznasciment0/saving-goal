@@ -14,5 +14,5 @@ export default {
 export const Default: Story = (args) => <SubtitleXS>{args.children}</SubtitleXS>
 
 Default.args = {
-  children: 'Teste'
+  children: 'Test'
 }

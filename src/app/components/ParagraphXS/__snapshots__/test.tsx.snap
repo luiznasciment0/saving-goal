@@ -13,6 +13,6 @@ exports[`<ParagraphXS /> should render the ParagraphXS and its styles 1`] = `
   class="c0"
   color="primaryGray"
 >
-  Teste
+  Test
 </h3>
 `

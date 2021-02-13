@@ -23,6 +23,6 @@ exports[`<Button /> should render the Button and its label 1`] = `
 <button
   class="c0"
 >
-  Teste
+  Test
 </button>
 `
