@@ -2,11 +2,12 @@ import Typography from 'app/components/Typography'
 
 interface HeadingMediumXSProps {
   children: React.ReactNode
+  tag?: 'p' | 'h2'
 }
 
-const HeadingMediumXS = ({ children }: HeadingMediumXSProps) => (
+const HeadingMediumXS = ({ children, tag = 'h2' }: HeadingMediumXSProps) => (
   <Typography
-    as="h2"
+    as={tag}
     size="xxlarge"
     weight="normal"
     color="secondaryBlue"
