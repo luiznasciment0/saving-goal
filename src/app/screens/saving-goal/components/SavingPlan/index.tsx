@@ -27,13 +27,13 @@ const SavingPlan = ({
   return (
     <>
       <Wrapper>
-        <TitleContainer>
+        <TitleContainer aria-label="Amount of money to be monthly saved">
           <SubtitleXS color="primaryBlack" tag="h6">
             Monthly amount
           </SubtitleXS>
-          <HeadingMediumXS>{monthlyAmount}</HeadingMediumXS>
+          <HeadingMediumXS tag="p">{monthlyAmount}</HeadingMediumXS>
         </TitleContainer>
-        <SubtitleContainer>
+        <SubtitleContainer aria-label="Monthly save details">
           <Caption>
             You’re planning <strong>{dateDifference} monthly deposits</strong>{' '}
             to reach your

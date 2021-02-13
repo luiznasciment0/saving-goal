@@ -1,0 +1,130 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[
+  `<SavingPlanContainer /> should add a month when right arrow is pressed 1`
+] = `
+.c0 {
+  border: 1px solid #e9eef2;
+  border-radius: 4px;
+  margin-top: 2.4rem;
+  margin-bottom: 3.2rem;
+}
+
+.c1 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  padding: 2.7rem 2.4rem;
+  -webkit-box-pack: justify;
+  -webkit-justify-content: space-between;
+  -ms-flex-pack: justify;
+  justify-content: space-between;
+}
+
+.c4 {
+  background-color: #f4f8fa;
+  padding: 2.4rem 3.2rem;
+  display: grid;
+  place-items: center;
+  text-align: center;
+}
+
+.c2 {
+  font-size: 1.8rem;
+  line-height: 2.16rem;
+  font-family: 'Work Sans';
+  color: #1e2a32;
+  font-weight: 400;
+}
+
+.c3 {
+  font-size: 2.4rem;
+  line-height: 2.88rem;
+  font-family: 'Rubik';
+  color: #0079ff;
+  font-weight: 500;
+}
+
+.c5 {
+  font-size: 1.2rem;
+  line-height: 1.6rem;
+  font-family: 'Work Sans';
+  color: #1c1e1f;
+  font-weight: 400;
+}
+
+@media (min-width:560px) {
+  .c0 {
+    width: 50.9rem;
+  }
+}
+
+@media (min-width:560px) {
+  .c1 {
+    padding-top: 3.1rem;
+    padding-bottom: 2.3rem;
+  }
+}
+
+@media (min-width:560px) {
+  .c4 {
+    text-align: left;
+  }
+}
+
+@media (max-width:350px) {
+
+}
+
+<div
+  class="c0"
+>
+  <div
+    aria-label="Amount of money to be monthly saved"
+    class="c1"
+  >
+    <h6
+      class="c2"
+      color="primaryBlack"
+    >
+      Monthly amount
+    </h6>
+    <p
+      class="c3"
+      color="secondaryBlue"
+    >
+      $0.00
+    </p>
+  </div>
+  <div
+    aria-label="Monthly save details"
+    class="c4"
+  >
+    <p
+      class="c5"
+      color="secondaryBlack"
+    >
+      You’re planning 
+      <strong>
+        1
+         monthly deposits
+      </strong>
+       
+      to reach your
+      <strong>
+         $
+        0.00
+      </strong>
+       goal by
+      <strong>
+         
+        February
+         
+        2021
+        .
+      </strong>
+    </p>
+  </div>
+</div>
+`
