@@ -1,7 +1,102 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
 exports[
-  `<DatePickerContainer /> should add a month when righ arrow is pressed 1`
+  `<DatePickerContainer /> should add a month when right arrow is pressed 1`
+] = `
+.c0 {
+  font-size: 1.2rem;
+  line-height: 1.6rem;
+  font-family: 'Work Sans';
+  color: #1e2a32;
+  font-weight: 400;
+}
+
+<h4
+  class="c0"
+  color="primaryBlack"
+>
+  Reach goal by
+</h4>
+`
+
+exports[
+  `<DatePickerContainer /> should add a month when right button is clicked 1`
+] = `
+.c0 {
+  font-size: 1.2rem;
+  line-height: 1.6rem;
+  font-family: 'Work Sans';
+  color: #1e2a32;
+  font-weight: 400;
+}
+
+<h4
+  class="c0"
+  color="primaryBlack"
+>
+  Reach goal by
+</h4>
+`
+
+exports[
+  `<DatePickerContainer /> should change to next year if is December 1`
+] = `
+.c0 {
+  font-size: 1.2rem;
+  line-height: 1.6rem;
+  font-family: 'Work Sans';
+  color: #1e2a32;
+  font-weight: 400;
+}
+
+<h4
+  class="c0"
+  color="primaryBlack"
+>
+  Reach goal by
+</h4>
+`
+
+exports[
+  `<DatePickerContainer /> should change to past year if is January 1`
+] = `
+.c0 {
+  font-size: 1.2rem;
+  line-height: 1.6rem;
+  font-family: 'Work Sans';
+  color: #1e2a32;
+  font-weight: 400;
+}
+
+<h4
+  class="c0"
+  color="primaryBlack"
+>
+  Reach goal by
+</h4>
+`
+
+exports[
+  `<DatePickerContainer /> should sub a month when left arrow is pressed 1`
+] = `
+.c0 {
+  font-size: 1.2rem;
+  line-height: 1.6rem;
+  font-family: 'Work Sans';
+  color: #1e2a32;
+  font-weight: 400;
+}
+
+<h4
+  class="c0"
+  color="primaryBlack"
+>
+  Reach goal by
+</h4>
+`
+
+exports[
+  `<DatePickerContainer /> should sub a month when left button is clicked 1`
 ] = `
 .c0 {
   font-size: 1.2rem;
