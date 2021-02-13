@@ -1,27 +1,21 @@
 import styled from 'styled-components'
-import { generateMedia } from 'styled-media-query'
-
-const customMedia = generateMedia({
-  medium: '560px'
-})
+import media from 'styled-media-query'
 
 export const Nav = styled.nav`
   background-color: #ffffff;
   width: 100%;
   height: 5.6rem;
   top: 0;
-  padding-top: 1.5rem;
-
-  ${customMedia.greaterThan('medium')`
-    padding-bottom: 1.5rem;
-  `}
 `
 
-export const Picture = styled.picture`
+export const Img = styled.img`
+  height: 2.4rem;
+  width: 7.5rem;
   margin: 1.6rem;
-  ${customMedia.greaterThan('medium')`
-    margin: 2rem auto 2rem 5.2rem;
-    height: 3.2rem;
+
+  ${media.greaterThan('medium')`
+    height: 2.8rem;
     width: 10rem;
+    margin: 1.6rem auto 1.6rem 5.2rem;
   `}
 `

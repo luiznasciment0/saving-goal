@@ -1,15 +1,12 @@
-import { Nav, Picture } from './styles'
-import Logo from 'app/assets/images/logo.png'
-import Logo2x from 'app/assets/images/logo2x.png'
+import { Nav, Img } from './styles'
+import LogoSVG from 'app/assets/images/origin_logo_dark.svg'
 
 const Navbar = () => {
   return (
     <Nav>
-      <Picture>
-        <source media="(min-width: 768px)" srcSet={Logo2x} />
-        <source media="(max-width: 768px)" srcSet={Logo} />
-        <img src={Logo} alt="Origin Logo" />
-      </Picture>
+      <a href="https://www.useorigin.com/">
+        <Img src={LogoSVG} alt="Origin logo" />
+      </a>
     </Nav>
   )
 }
