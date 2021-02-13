@@ -21,7 +21,8 @@ export const TitleContainer = styled.div`
   padding: 2.7rem 2.4rem;
   justify-content: space-between;
   ${customMedia.greaterThan('medium')`
-    padding: 3.1rem 3.2rem;
+    padding-top: 3.1rem;
+    padding-bottom: 2.3rem;
   `}
 `
 
