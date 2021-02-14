@@ -15,11 +15,11 @@ const DatePicker = ({ incrementDate, decrementDate, month, year }: Props) => {
   return (
     <>
       <DescriptionXS>Reach goal by</DescriptionXS>
-      <Wrapper>
+      <Wrapper aria-label="Date picker">
         <ButtonLeft onClick={decrementDate} aria-label="Previous month">
           <img src={ArrowLeft} alt="Arrow Left" />
         </ButtonLeft>
-        <DateValueContainer>
+        <DateValueContainer aria-label="Month and year">
           <ParagraphXS data-testid="month" weight="bold" color="primaryBlack">
             {month}
           </ParagraphXS>

@@ -46,7 +46,7 @@ const SavingPlan = ({
         </SubtitleContainer>
       </Wrapper>
       <ButtonWrapper>
-        <Button>Confirm</Button>
+        <Button aria-label="Confirm">Confirm</Button>
       </ButtonWrapper>
     </>
   )
