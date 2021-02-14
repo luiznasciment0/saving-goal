@@ -15,8 +15,9 @@ const MoneyInput = ({ value, handleChange }: Props) => {
       <InputWrapper>
         <DollarSign src={DollarIcon} alt="Dollar Sign Icon" />
         <Input
-          type="tel"
+          inputMode="numeric"
           placeholder="0.00"
+          maxLength={28}
           aria-label="money-input"
           value={value}
           onChange={handleChange}
