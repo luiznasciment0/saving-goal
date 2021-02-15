@@ -8,9 +8,9 @@ export default {
 
 export const Default: Story = () => (
   <DatePicker
-    minDate={{
-      year: new Date().getFullYear(),
-      month: new Date().getMonth() + 2
-    }}
+    incrementDate={() => alert('increment date')}
+    decrementDate={() => alert('decrement date')}
+    month="October"
+    year={2021}
   />
 )
