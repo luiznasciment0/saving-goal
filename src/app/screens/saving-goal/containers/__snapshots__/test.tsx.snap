@@ -1,0 +1,190 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<SavingGoalContainer /> should work correctly 1`] = `
+.c1 {
+  font-size: 1.2rem;
+  line-height: 1.6rem;
+  font-family: 'Work Sans';
+  color: #1e2a32;
+  font-weight: 400;
+}
+
+.c8 {
+  font-size: 1.4rem;
+  line-height: 2.1rem;
+  font-family: 'Work Sans';
+  color: #1e2a32;
+  font-weight: 600;
+}
+
+.c9 {
+  font-size: 1.4rem;
+  line-height: 2.1rem;
+  font-family: 'Work Sans';
+  color: #708797;
+  font-weight: 400;
+}
+
+.c5 {
+  border: 1px solid #e9eef2;
+  border-radius: 4px;
+  padding: 0.75rem 2.1rem 0.65rem;
+  margin-top: 4px;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+  -webkit-justify-content: space-between;
+  -ms-flex-pack: justify;
+  justify-content: space-between;
+  min-width: 19.2rem;
+}
+
+.c7 {
+  display: grid;
+  place-items: center;
+}
+
+.c6 {
+  border: none;
+  background: none;
+}
+
+.c10 {
+  border: none;
+  background: none;
+}
+
+.c2 {
+  border: 1px solid #e9eef2;
+  border-radius: 4px;
+  padding: 1.6rem;
+  margin-top: 4px;
+  margin-bottom: 1.6rem;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.c4 {
+  font-family: 'Rubik';
+  font-size: 2rem;
+  line-height: 2.4rem;
+  color: #4d6475;
+  border: 0;
+  outline: none;
+}
+
+.c3 {
+  margin-right: 1.3rem;
+}
+
+@media (min-width:560px) {
+
+}
+
+@media (min-width:560px) {
+
+}
+
+@media (min-width:560px) {
+
+}
+
+@media (max-width:350px) {
+
+}
+
+@media (min-width:560px) {
+  .c0 {
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: justify;
+    -webkit-justify-content: space-between;
+    -ms-flex-pack: justify;
+    justify-content: space-between;
+  }
+}
+
+<div
+  class="c0"
+>
+  <div>
+    <h4
+      class="c1"
+      color="primaryBlack"
+    >
+      Total amount
+    </h4>
+    <div
+      class="c2"
+    >
+      <img
+        alt="Dollar Sign Icon"
+        class="c3"
+        src="[object Object]"
+      />
+      <input
+        aria-label="Money input"
+        class="c4"
+        inputmode="numeric"
+        maxlength="28"
+        placeholder="0.00"
+        value="1,000.00"
+      />
+    </div>
+  </div>
+  <div>
+    <h4
+      class="c1"
+      color="primaryBlack"
+    >
+      Reach goal by
+    </h4>
+    <div
+      aria-label="Date picker"
+      class="c5"
+    >
+      <button
+        aria-label="Previous month"
+        class="c6"
+      >
+        <img
+          alt="Arrow Left"
+          src="[object Object]"
+        />
+      </button>
+      <div
+        aria-label="Month and year"
+        class="c7"
+      >
+        <h3
+          class="c8"
+          color="primaryBlack"
+        >
+          March
+        </h3>
+        <h3
+          class="c9"
+          color="primaryGray"
+        >
+          2021
+        </h3>
+      </div>
+      <button
+        aria-label="Next month"
+        class="c10"
+      >
+        <img
+          alt="Arrow Right"
+          src="[object Object]"
+        />
+      </button>
+    </div>
+  </div>
+</div>
+`
