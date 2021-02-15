@@ -131,6 +131,7 @@ exports[`<SavingGoalContainer /> should work correctly 1`] = `
       <input
         aria-label="Money input"
         class="c4"
+        data-cy="money-input"
         inputmode="numeric"
         maxlength="28"
         placeholder="0.00"
@@ -152,6 +153,7 @@ exports[`<SavingGoalContainer /> should work correctly 1`] = `
       <button
         aria-label="Previous month"
         class="c6"
+        data-cy="button-left"
       >
         <img
           alt="Arrow Left"
@@ -161,6 +163,7 @@ exports[`<SavingGoalContainer /> should work correctly 1`] = `
       <div
         aria-label="Month and year"
         class="c7"
+        data-cy="date-values"
       >
         <h3
           class="c8"
@@ -178,6 +181,7 @@ exports[`<SavingGoalContainer /> should work correctly 1`] = `
       <button
         aria-label="Next month"
         class="c10"
+        data-cy="button-right"
       >
         <img
           alt="Arrow Right"

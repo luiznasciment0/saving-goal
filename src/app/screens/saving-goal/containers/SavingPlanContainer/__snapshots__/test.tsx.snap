@@ -83,6 +83,7 @@ exports[
   <div
     aria-label="Amount of money to be monthly saved"
     class="c1"
+    data-cy="monthly-amount"
   >
     <h6
       class="c2"
@@ -100,6 +101,7 @@ exports[
   <div
     aria-label="Monthly save details"
     class="c4"
+    data-cy="monthly-amount-details"
   >
     <p
       class="c5"
