@@ -26,6 +26,7 @@ Just access `http://localhost:3000` in your browser.
 
 ```
 yarn test
+yarn cypress
 ```
 
 ### Technologies:
