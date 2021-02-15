@@ -21,6 +21,7 @@ const MoneyInput = ({ value, handleChange }: Props) => {
           aria-label="Money input"
           value={value}
           onChange={handleChange}
+          data-cy="money-input"
         />
       </InputWrapper>
     </>
