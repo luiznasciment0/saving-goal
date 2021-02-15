@@ -18,7 +18,7 @@ const MoneyInput = ({ value, handleChange }: Props) => {
           inputMode="numeric"
           placeholder="0.00"
           maxLength={28}
-          aria-label="money-input"
+          aria-label="Money input"
           value={value}
           onChange={handleChange}
         />

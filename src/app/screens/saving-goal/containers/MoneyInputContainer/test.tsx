@@ -1,4 +1,4 @@
-import { render, screen, fireEvent } from '@testing-library/react'
+import { render, fireEvent } from '@testing-library/react'
 import 'jest-styled-components'
 
 import { SavingGoalProvider } from 'app/providers/SavingGoalProvider'
@@ -10,7 +10,7 @@ const setup = () => {
       <MoneyInputContainer />
     </SavingGoalProvider>
   )
-  const input = utils.getByLabelText('money-input')
+  const input = utils.getByLabelText('Money input')
   return {
     input,
     ...utils
@@ -19,8 +19,7 @@ const setup = () => {
 
 describe('<MoneyInput />', () => {
   it('should allow only numbers', () => {
-    const { container } = setup()
-    const input = screen.getByLabelText('money-input')
+    const { container, input } = setup()
 
     expect(input).toHaveValue('')
     fireEvent.change(input, { target: { value: 'Test' } })
@@ -30,8 +29,7 @@ describe('<MoneyInput />', () => {
   })
 
   it('should format 1k', () => {
-    const { container } = setup()
-    const input = screen.getByLabelText('money-input')
+    const { container, input } = setup()
 
     expect(input).toHaveValue('')
     fireEvent.change(input, { target: { value: '100000' } })
@@ -41,8 +39,7 @@ describe('<MoneyInput />', () => {
   })
 
   it('should format 10k', () => {
-    const { container } = setup()
-    const input = screen.getByLabelText('money-input')
+    const { container, input } = setup()
 
     expect(input).toHaveValue('')
     fireEvent.change(input, { target: { value: '1000000' } })
@@ -52,8 +49,7 @@ describe('<MoneyInput />', () => {
   })
 
   it('should format 100k', () => {
-    const { container } = setup()
-    const input = screen.getByLabelText('money-input')
+    const { container, input } = setup()
 
     expect(input).toHaveValue('')
     fireEvent.change(input, { target: { value: '10000000' } })
