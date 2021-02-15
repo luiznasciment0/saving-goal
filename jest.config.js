@@ -1,8 +1,12 @@
 module.exports = {
   testEnvironment: 'jsdom',
-  testPathIgnorePatterns: ['/node_modules/', '/.next/'],
+  testPathIgnorePatterns: ['/node_modules/', '/.next/', '<rootDir>/cypress/'],
   collectCoverage: true,
-  collectCoverageFrom: ['src/**/*.ts(x)?', '!src/**/stories.tsx'],
+  collectCoverageFrom: [
+    'src/**/*.ts(x)?',
+    '!src/**/stories.tsx',
+    '!cypress/**'
+  ],
   setupFilesAfterEnv: ['<rootDir>/.jest/setup.ts'],
   modulePaths: ['<rootDir>/src/'],
   moduleNameMapper: {
