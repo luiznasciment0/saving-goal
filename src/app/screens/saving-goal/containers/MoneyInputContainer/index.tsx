@@ -1,5 +1,4 @@
-import { useState } from 'react'
-import { useRifm } from 'rifm'
+import React, { useState, ChangeEventHandler } from 'react'
 import { useEffectsSavingGoal } from 'app/providers/SavingGoalProvider'
 
 import MoneyInput from '../../components/MoneyInput'
@@ -24,17 +23,13 @@ const MoneyInputContainer = () => {
     setAmount(value)
   }
 
-  const handleChange = (value: string) => {
-    setState(value)
+  const onChange: ChangeEventHandler<HTMLInputElement> = (
+    e: React.FormEvent<HTMLInputElement>
+  ) => {
+    setState(currencyMask(e.currentTarget.value))
   }
 
-  const rifm = useRifm({
-    value,
-    onChange: handleChange,
-    format: currencyMask
-  })
-
-  return <MoneyInput value={rifm.value} handleChange={rifm.onChange} />
+  return <MoneyInput value={value} handleChange={onChange} />
 }
 
 export default MoneyInputContainer
