@@ -20,12 +20,10 @@ const DatePicker = ({ incrementDate, decrementDate, month, year }: Props) => {
           <img src={ArrowLeft} alt="Arrow Left" />
         </ButtonLeft>
         <DateValueContainer aria-label="Month and year">
-          <ParagraphXS data-testid="month" weight="bold" color="primaryBlack">
+          <ParagraphXS weight="bold" color="primaryBlack">
             {month}
           </ParagraphXS>
-          <ParagraphXS data-testid="year" weight="light">
-            {year}
-          </ParagraphXS>
+          <ParagraphXS weight="light">{year}</ParagraphXS>
         </DateValueContainer>
         <ButtonRight onClick={incrementDate} aria-label="Next month">
           <img src={ArrowRight} alt="Arrow Right" />
