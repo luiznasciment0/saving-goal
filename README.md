@@ -1,15 +1,4 @@
-# Origin Frontend Take-Home Assignment
-
-Origin is a platform that helps our customers' employees put their financial lives on track.
-
-One key to financial well-being is planning & saving for your goals. Users can have many saving goals (e.g. go to college or throw a wedding party) and it is our job to help them accomplish it.
-
-- [Live](https://origin-financial-saving-goal.vercel.app/)
-
-### The Saving Goal Plan Simulation Screen
-
-![Saving Goal Plan Mockup Desktop](https://github.com/OriginFinancial/frontend-take-home-assignment/blob/master/mockups/saving-goal-plan-desk.png)
-
+# Studies purpose
 
 # Usage
 
